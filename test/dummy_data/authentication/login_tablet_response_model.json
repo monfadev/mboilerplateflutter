@@ -1,0 +1,60 @@
+{
+  "code": 200,
+  "status": true,
+  "message": "Login success, but you don't have shift allocation for this unit",
+  "data": {
+    "id": "userid",
+    "role_id": 29,
+    "role_name": "Operator",
+    "is_default_role": false,
+    "department_id": "OPE",
+    "department_name": "Operation",
+    "site_id": "001D",
+    "site_name": "Head Office Jakarta",
+    "fleet_id": "",
+    "nik": "userid",
+    "name": "userid",
+    "email": "userid@gmail.com",
+    "phone": "081762192134",
+    "is_active": true,
+    "image_url": "imageUrl",
+    "unit_id": "unitId",
+    "unit_code": "unitCode",
+    "unit_type_id": "unitId",
+    "login_type": 1,
+    "login_status": 2,
+    "login_at": "2024-11-12T08:52:50.448256457Z",
+    "last_total_cycle": 0,
+    "last_total_hauler": 0,
+    "last_cycle_id": "",
+    "last_activity_id": "",
+    "last_pit": {
+      "id": "",
+      "name": ""
+    },
+    "last_hauler": {
+      "hauler_id": "",
+      "code": "",
+      "operator_hauler_id": ""
+    },
+    "last_loader": {
+      "loader_id": "",
+      "code": "",
+      "operator_loader_id": ""
+    },
+    "last_loading_point": {
+      "id": "",
+      "name": ""
+    },
+    "last_dumping_point": {
+      "id": "",
+      "name": ""
+    },
+    "last_material": {
+      "id": "",
+      "name": ""
+    },
+    "cycle_finished": false,
+    "is_disposal": false
+  }
+}

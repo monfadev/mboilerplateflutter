@@ -1,0 +1,6 @@
+{
+  "code": 400,
+  "status": false,
+  "message": "User does not exist",
+  "data": "User does not exist"
+}

@@ -1,0 +1,25 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - always_declare_return_types
+    - always_use_package_imports
+    - avoid_empty_else
+    - avoid_multiple_declarations_per_line
+    - avoid_print
+    - avoid_redundant_argument_values
+    - avoid_relative_lib_imports
+    - avoid_type_to_string
+    - avoid_void_async
+    - close_sinks
+    - file_names
+    - prefer_const_constructors
+    - prefer_final_in_for_each
+    - prefer_final_locals
+    - prefer_if_elements_to_conditional_expressions
+    - prefer_single_quotes
+    - require_trailing_commas
+    - unawaited_futures
+    - unnecessary_await_in_return
+    - unnecessary_nullable_for_final_variable_declarations
+    - use_string_buffers
