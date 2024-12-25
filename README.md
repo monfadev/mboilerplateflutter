@@ -1,16 +1,62 @@
 # mboilerplateflutter
 
-A new Flutter project.
+> Clean Architecture Paradigm use in Flutter Framework. Basically the paradigm can be scaling the application.
 
-## Getting Started
+## Clean Architecture
+![](https://github.com/monfadev/mboilerplateflutter/blob/master/docs/clean_architecture.png)
 
-This project is a starting point for a Flutter application.
+## Folder Structure
+```
+- /core
+├─ /common
+├─ /routes
+- /data
+├─ /datasources
+├─ /models
+├─ /repositories
+├─ /services
+- /domain
+├─ /entities
+├─ /repositories
+├─ /usecases
+- /presentation
+├─ /presentation
+├─ /statemanagement
+├─ /widgets
+main.dart
+initialize.dart
+injection.dart
+firebase.dart
+```
 
-A few resources to get you started if this is your first Flutter project:
+## SDK Version
+Flutter SDK Latest
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run this command in your terminal:
+```bash
+git clone
+cd mboilerplateflutter
+flutter pub get
+flutter run
+```
+
+##### Get the packages
+```bash
+sh pub.sh
+```
+
+##### Get test coverage
+```bash
+sh gencov.sh
+```
+
+##### Get code generation test
+```bash
+sh build-runner.sh
+```
+
+## Credit
+
+mfaauzii@gmail.com | monfadev
